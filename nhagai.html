@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Thiệp mời và đám cưới Văn Long - Nguyệt Ánh</title>
+    <meta content="van long, nguyet anh, wedding" name="keywords" />
+    <meta content="Bạn có một lời mời đến dự đám cưới, hãy vào để xem và cùng đến dự nhé" name="description" />
+    <meta content="Thiệp mời và đám cưới Văn Long - Nguyệt Ánh" property="og:title" />
+    <meta content="Bạn có một lời mời đến dự đám cưới, hãy vào để xem và cùng đến dự nhé" property="og:description" />
+    <meta content="vanlongnguyetanh" property="og:site_name" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;500&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="assets/img/Heart-Icon-2.png?v=2.7">
+    <link rel="stylesheet" href="assets/css/all.css?v=2.7">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light py-3">
+        <div class="container-fluid flex-column">
+            <div class="py-4 d-flex justify-content-center">
+                <a href="#" class="font-weight-bold font-24">
+                   LONG ANH WEDDING
+                </a>
+            </div>
+            <ul class="nav justify-content-center w-100 nav-main">
+                <li class="nav-item">
+                    <a class="nav-link" href="/">TRANG CHỦ</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#story">CÂU CHUYỆN</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#event">LỄ CƯỚI</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#join">ĐƯỜNG ĐI</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div id="envelop" class="text-right">
+        <a href="#inviteModal" data-toggle="modal">
+            <img src="assets/img/sms.svg" alt="sms" height="50">
+            <div class="msg">Xem lời mời của bạn</div>
+        </a>
+    </div>
+    <!-- Modal -->
+    <div class="modal fade" id="inviteModal" tabindex="-1" role="dialog" aria-labelledby="inviteModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-body p-4">
+                    <div class="d-flex justify-content-between">
+                        <h5 class="modal-title font-sans mb-3" id="inviteModalLabel">
+                            Dear <span id="guest">Khoa Hoàng</span>,
+                        </h5>
+                        <a href="#" data-dismiss="modal">
+                            Ẩn thiệp
+                        </a>
+                    </div>
+                    <p><span class="xung-ho">Bạn</span> thân mến! Trước tiên cho <span class="xung-ho-mine">mình</span> gửi
+                        lời chào và lời chúc sức khỏe đến <span class="xung-ho">bạn</span>.</p>
+                    <p>Được sự cho phép của hai bên gia đình, chúng <span class="xung-ho-mine">mình</span> sẽ tổ chức đám
+                        cưới vào ngày 28/08/2022 (02/08 Âm lịch). Rất mong <strong><span class="xung-ho">bạn</span> và người
+                            thương</strong> có mặt trong lễ cưới mừng hạnh phúc cho <span class="xung-ho-mine">mình</span>.
+                    </p>
+                    <p>Thời gian: ngày 28/08/2022 (02/08 Âm lịch).</p>
+                    <p>Địa điểm: Hãy click <strong>Ẩn thiệp</strong> và kéo xuống dưới để xem chi tiết. </p>
+                    <p>Sự hiện diện của <span class="xung-ho">bạn</span> là niềm hạnh phúc của chúng <span
+                            class="xung-ho-mine">mình</span>!</p>
+                    <p>Mong phản hồi lại của <span class="xung-ho">bạn</span>.</p>
+                    <p>Chúng <span class="xung-ho-mine">mình</span> trân thành cảm ơn!</p>
+                    <img src="assets/img/Leafs.png?v=2.7" alt="Leafs.png?v=2.7" class="mt-3 mb-4" height="24">
+                    <h4 class="text-primary">Long <span class="ml-3 mr-4">và</span> Ánh</h4>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-lg-6">
+                <img src="assets/img/Banner.jpg" alt="" class="img-fluid">
+            </div>
+            <div class="col-lg-6">
+                <div id="main-name" class="d-flex align-items-center h-100 w-100 px-4">
+                    <img src="assets/img/Water-Color.png?v=2.7" alt="" class="img-fluid">
+                </div>
+            </div>
+        </div>
+        <div class="mt-5 py-5">
+            <h2 class="text-center h1 text-primary">we are getting married</h2>
+            <div class="my-5">
+                <ul id="pageTimer" class="m-0 list-unstyled d-flex justify-content-center"></ul>
+            </div>
+        </div>
+    </div>
+    <section class="mt-5" id="story">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-10 text-center offset-lg-1 mb-4">
+                    <div class="text-center">
+                        <img src="assets/img/Story-Icon.png?v=2.7" alt="" height="60">
+                    </div>
+                    <h2 class="text-center h1 text-primary my-2 mb-4">our story</h2>
+                    <p>"Cuộc đời là những hành trình dài bất tận, chúng tôi vô tình tìm thấy nhau trong hành trình đó và về
+                        chung một mái ấm. Cùng với nhau, chúng tôi sẽ cố gắng sao cho luôn giữ được tình cảm như ngày đầu
+                        tiên."</p>
+
+                    <p>
+                        Cô thích ăn táo.
+
+                        Anh mỗi ngày đều gọt hai quả táo, mỗi người một quả, cô thích cảm giác ấm áp lãng mạn này.
+
+                        Chỉ là cô phát hiện anh luôn cắn một miếng ở cả hai quả táo trước, sau đó mới đưa cho cô một quả.
+
+                        Vì thế, cô buồn bực đã lâu. Rốt cục có một ngày.
+
+                        Thừa dịp lúc anh ra ngoài nghe điện thoại, cô cầm quả táo của anh cắn một miếng.
+
+                        Cảm giác không ngon ngọt bằng quả táo của mình. Nước mắt không tiếng động nháy mắt lướt qua khuôn
+                        mặt.
+                    </p>
+                    <p>*Từ đó cô và anh chỉ dùng đồ Apple để nhớ đến quả táo cắn dở và tình yêu ngọt ngào.</p>
+                </div>
+            </div>
+            <div class="row mt-5">
+                <div class="col-lg-6">
+                    <div class="px-5 mb-4 text-center">
+                        <img src="assets/img/codau_1.jpg" class="img-fluid" alt="">
+                        <h2 class="mt-4 text-primary">the bride</h2>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="px-5 mb-4 text-center">
+                        <img style="opacity: 0.86" src="assets/img/chure_1.jpg" class="img-fluid" alt="">
+                        <h2 class="mt-4 text-primary">the groom</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="mt-5 py-5" id="event">
+        <div class="pt-3 pb-4 d-none d-md-block"></div>
+        <div class="container py-5">
+            <h2 class="text-center h1 text-primary mb-5 mt-4">wedding events</h2>
+            <div class="row pt-4">
+                <div class="col-lg-6">
+                    <div class="card-wedding text-center px-1">
+                        <img src="assets/img/Heart-Icon.png?v=2.7" alt="Wine-Icon.png?v=2.7" height="50">
+                        <h4 class="font-sans mt-4 mb-3">Lễ Thành Hôn</h4>
+                        <h5 class="text-primary font-sans mb-3">28-08-2022 | 08:00 AM - 11:30 PM</h5>
+                        <p class="mb-5">Cô dâu, chú rể có rất nhiều bạn đẹp trai, xinh gái và độc thân nên hãy chuẩn bị cho mình diện mạo ổn nhất. Đám cưới chúng mình không bắt buộc dress code.</p>
+                        <img src="assets/img/Leafs.png?v=2.7" alt="Leafs.png?v=2.7" height="24" class="mb-5 mb-md-0">
+                    </div>
+                </div>
+
+                <div class="col-lg-6">
+                    <div class="card-wedding text-center px-1">
+                        <img src="assets/img/Wine-Icon.png?v=2.7" alt="Wine-Icon.png?v=2.7" height="60">
+                        <h4 class="font-sans mt-4 mb-3">Bữa Cơm Thân Mật</h4>
+                        <h5 class="text-primary font-sans mb-3">28-08-2022 | 11:00 AM </h5>
+                        <p class="mb-5">Mọi người đến dự bữa ăn thân mật tại nhà gái thật sớm để gặp cô dâu. Vào lúc 11:00 AM
+                            nhà trai sẽ đến nhà cô dâu, cùng dùng bữa rồi đưa cô dâu về nhà chồng.
+                        </p>
+                        <img src="assets/img/Leafs.png?v=2.7" alt="Leafs.png?v=2.7" height="24" class="mb-5 mb-md-0">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="py-3 d-none d-md-block"></div>
+    </section>
+    <section class="mt-5" id="join">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-lg-6 text-center">
+                    <h4 class="font-sans text-primary mt-5 mb-4">
+                        ĐỊA CHỈ NHÀ GÁI
+                    </h4>
+                    <p>68, Ngõ 82 Kim Mã (Ngõ 39 Giang Văn Minh), quận Ba Đình, <br>Thành phố Hà Nội</p>
+                    <p>Liên lạc cô dâu: <a href="tel:036 363 4644">036 363 4644</a></p>
+                    <p>Liên lạc chú rể: <a href="tel:0966 183 477">0966 183 477</a></p>
+                    <p><a href="https://goo.gl/maps/hyjSW6DQr6V2CQFDA" target="_blank" class="font-weight-bold">Xem Google map</a></p>
+                </div>
+                <div class="col-lg-6 text-center">
+                    <h4 class="font-sans text-primary mt-5 mb-4">
+                        BỮA CƠM THÂN MẬT
+                    </h4>
+                    <p>Phòng 202 - Tầng 2 - Nhà 7 tầng. TRUNG TÂM HỘI NGHỊ QUỐC TẾ.
+                        <br>Số 35 Hùng Vương, phường Điện Biên, Ba Đình, Hà Nội.</p>
+                    <p>Liên lạc cô dâu: <a href="tel:036 363 4644">036 363 4644</a></p>
+                    <p>Liên lạc chú rể: <a href="tel:0966 183 477">0966 183 477</a></p>
+                    <p><a href="https://goo.gl/maps/fmyzrtAfF52ZR7Xb8" target="_blank" class="font-weight-bold">Xem Google map</a></p>
+                </div>
+                <div class="col-lg-8 text-center offset-lg-2 mb-4">
+                    <h4 class="font-sans text-primary mt-5 mb-4">
+                        THAM GIA TỪ XA
+                    </h4>
+
+                    <p>Thật tiếc nuối khi bạn không thể đến tham gia trực tiếp, cô dâu và chú rể biết bạn cũng sẽ buồn nên
+                        chúng tôi có một phương án tham gia từ xa giúp bạn vẫn có thể tham gia đám cưới bằng tinh thần. Tham
+                        gia ngay theo cú pháp phía dưới.</p>
+
+                    <p>CTK: Nguyễn Thị Nguyệt Ánh, STK: 03101016853794, MSB - Ngân hàng Thương mại Cổ phần Hàng Hải Việt Nam </p>
+                    <p>CTK: Lê Văn Long, STK: 8838858889, MB - Ngân hàng Thương mại Cổ phần Quân đội</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="mt-5">
+        <div class="container">
+            <div class="text-center">
+                <img src="assets/img/Heart-Icon-2.png?v=2.7" alt="" height="60">
+            </div>
+            <h2 class="text-center h1 text-primary my-2 mb-5">our moment</h2>
+            <p class="text-center mb-3">* Bấm vào ảnh để xem ảnh Full HD</p>
+            <div class="row">
+                <div class="col-lg-4">
+                    <a href="assets/img/1.JPG" target="_blank">
+                        <div class="mb-4 embed-responsive embed-responsive-1by1">
+                            <img src="assets/img/1.JPG" alt="anh-1" class="embed-responsive-item">
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4">
+                    <a href="assets/img/2.1.JPG" target="_blank">
+                        <div class="mb-4 embed-responsive embed-responsive-1by1">
+                            <img src="assets/img/2.1.JPG" alt="anh-1" class="embed-responsive-item">
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4">
+                    <a href="assets/img/3.JPG" target="_blank">
+                        <div class="mb-4 embed-responsive embed-responsive-1by1">
+                            <img src="assets/img/3.JPG" alt="anh-1" class="embed-responsive-item">
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4">
+                    <a href="assets/img/4.JPG" target="_blank">
+                        <div class="mb-4 embed-responsive embed-responsive-1by1">
+                            <img src="assets/img/4.JPG" alt="anh-1" class="embed-responsive-item">
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4">
+                    <a href="assets/img/5.JPG" target="_blank">
+                        <div class="mb-4 embed-responsive embed-responsive-1by1">
+                            <img src="assets/img/5.JPG" alt="anh-1" class="embed-responsive-item">
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4">
+                    <a href="assets/img/6.JPG" target="_blank">
+                        <div class="mb-4 embed-responsive embed-responsive-1by1">
+                            <img src="assets/img/6.JPG" alt="anh-1" class="embed-responsive-item">
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4">
+                    <a href="assets/img/7.JPG" target="_blank">
+                        <div class="mb-4 embed-responsive embed-responsive-1by1">
+                            <img src="assets/img/7.JPG" alt="anh-1" class="embed-responsive-item">
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4">
+                    <a href="assets/img/8.JPG" target="_blank">
+                        <div class="mb-4 embed-responsive embed-responsive-1by1">
+                            <img src="assets/img/8.JPG" alt="anh-1" class="embed-responsive-item">
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4">
+                    <a href="assets/img/9.JPG" target="_blank">
+                        <div class="mb-4 embed-responsive embed-responsive-1by1">
+                            <img src="assets/img/9.JPG" alt="anh-1" class="embed-responsive-item">
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="my-4">
+        <dic class="container">
+            <div class="text-center">
+                <p class="mb-1">Copyright &copy; 2022 Văn Long - Nguyệt Ánh</p>
+                <p class="mb-1">Thiết kế và thực hiện: Lê Văn Long</p>
+                <p class="mb-1">Phàn nàn và chỉ đạo: Nguyễn Thị Nguyệt Ánh</p>
+                <p class="mb-1">All Rights Reserved</p>
+            </div>
+        </dic>
+    </footer>
+    <script src="assets/js/all.js?v=2.7"></script>
+    <script src="assets/js/index.js?v=2.7"></script>
+</body>
+
+</html>
